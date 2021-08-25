@@ -21,17 +21,6 @@ function bubbleSort(nums) {
       wasAltered = true;
     }
   }
-  // const sort = (arr) => {
-  //   for (var i = 0; i < arr.length; i++) {
-  //     if (arr[i] > arr[i + 1]) {
-  //       let oldVal = arr[i + 1];
-  //       arr[i + 1] = arr[i];
-  //       arr[i] = oldVal;
-  //       wasAltered = true;
-  //     }
-  //   }
-  // };
-  // sort(nums);
   return wasAltered ? bubbleSort(nums) : nums;
 }
 
